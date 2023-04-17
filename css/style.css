@@ -391,3 +391,47 @@ html {
     color: var(--color5);
     box-shadow: 0px 3px 6px var(--color7);
 }
+
+/* style -footer */
+
+.page-footer {
+    background-color: var(--color10);
+    height: 230px;
+}
+
+.container-list a {
+    text-transform: uppercase;
+    color: var(--color1);
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.container-list a:hover {
+    color: var(--color5);
+}
+
+.page-footer .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.container-list {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 25px;
+
+}
+
+.footer-text {
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--color12);
+    align-self: flex-end;
+}
