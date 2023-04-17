@@ -257,3 +257,33 @@ html {
     align-self: flex-start;
     margin-bottom: 100px;
 }
+
+
+/* Style service + acticle service */
+
+.service {
+    background-color: var(--color10);
+}
+
+.service .title {
+    color: var(--color1);
+    padding: 60px 0 35px;
+}
+
+.service-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.service .article-btn {
+    align-self: center;
+}
+
+.service .article-text,
+.service .article-title {
+    color: var(--color1);
+    text-align: center;
+}
